@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #c0e7e9;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    min-width: 327px;
+    min-height: 327px;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://media3.giphy.com/media/azi3GTPtxWKCQ/giphy.gif?cid=ecf05e4725z8co9yjjvaqqq24yp032os7ak2o5g9bw2r4w5i&rid=giphy.gif&ct=g');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text h1{    
+    font-size: 4rem;
+    font-family: 'Corinthia', cursive; 
+    display: flex;
+    height: 100%;  
+    justify-content: center;
+    align-items: center;
+}
+.options button{
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.options .No{
+    background-color: #dd1922;
+    background-image: linear-gradient(90deg, #dd1922 0%, #020807 100%);
+    color: white;
+}
+.options .yes{
+    background-color: #4CCE4B;
+    background-image: linear-gradient(90deg, #4CCE4B 0%, #020807 100%);
+    color: white;
+}
